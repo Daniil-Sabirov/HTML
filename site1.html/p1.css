@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+.col1 {
+    float: left;
+    width: 33%;
+    overflow: hidden;
+}
+
+.col2 {
+    width: 33%;
+    float: left;
+    overflow: hidden;
+}
+
+.col2 img {
+    width: 100%;
+
+}
+
+.col3 {
+    width: 33%;
+    float: left;
+    overflow: hidden;
+}
+
+.col3 img {
+    width: 100%;
+}
+

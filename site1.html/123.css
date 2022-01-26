@@ -1,0 +1,183 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+  box-sizing: border-box;
+  zoom: 1.3;
+  background-color: white;
+  /* max-height: 1000px; */
+  overflow: hidden;
+  box-sizing: border-box;
+  /* max-height: 100vh; */
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: teal;
+    border-bottom: 5px solid black;
+    box-sizing: border-box;
+}
+
+.left-sidebar {
+  box-sizing: border-box;
+  height: 478px;
+  width: 100px;
+  border: 5px solid red;
+  background: orange;
+  position: absolute;
+  left: -100px;
+  top: 100px;
+  transition: all 1s;
+}
+.left-sidebar::after {
+  content: "Menu";
+  display: block;
+  position: absolute;
+  right: -42px;
+  top: 13.5px;
+  transform: rotateZ(270deg);
+  border: 1px solid red;
+  background-color: red;
+  color: black;
+  padding: 1px 10px;
+  border-radius: 4px;
+}
+
+.content {
+    width: 100%;
+    min-height: 500px;
+    background-color: purple;
+    display: block;
+    transition: all 1s;
+    padding-left: 25px;
+}
+
+.left-sidebar:hover {
+  left: 0px;
+}
+
+.left-sidebar:hover + .content {
+    margin-left: 100px;
+    width: calc(100% - 100px);
+}
+
+.left-sidebar a {
+  display: block;
+  text-align: right;
+  color: black;
+  text-decoration: none;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: 1px solid red;
+  min-height: 30px;
+  min-width: 40px;
+  padding: 4px;
+  border-radius: 3px;
+  background-color: black;
+  text-decoration: none;
+  color: red;
+}
+
+
+/* .tower {
+  position: absolute;
+  max-height: 100%;
+  margin-left: 790px;
+  margin-bottom: 0px;
+  right: 0px;
+} */
+
+.info {
+  border: 3px solid black;
+  min-height: 200px;
+  max-width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.title1 {
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.cols {
+  width: 100%;
+}
+
+.col1 {
+  float: left;
+  width: 33%;
+  overflow: hidden;
+}
+.col2 {
+  float: left;
+  width: 33%;
+  overflow: hidden;
+}
+.col3 {
+  float: left;
+  width: 34%;
+  overflow: hidden;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg);
+  
+}
+
+.col2 div img {
+  width: 100%;
+  height: 20vh;
+  display: block;
+}
+
+.col2 div {
+  height: 33%;
+}
+
+.col3 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.float-reset {
+  float: none;
+}
+
+h1.title {
+  text-align: center;
+}
+
+/* .left-sidebar, a {
+  border-bottom: 1px solid black ;
+  border-top: 1px solid black ;
+} */
+
+.col3bg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+
+}
+
+.col3q {
+  height: 580px;
+
+}
+
+.color1 :hover{
+  content: 1;
+  color: greenyellow;
+}

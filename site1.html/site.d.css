@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+
+a {
+    display: inline-block;
+    min-width: 30px;
+    text-align: center;
+    border: 1px solid red;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+.white-font {
+    color: white;
+}
+
+.black-bg {
+    background-color: black;
+}
+
+body {
+    min-height: 100%;
+    background: linear-gradient(315deg, rgba(236,255,0,1) 25%, rgba(0,255,25,1) 40%, rgba(0,0,255,1) 62%, rgba(255,0,0,1) 79%, rgba(255,0,236,1) 100%);
+}
+
+html, body {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+}
