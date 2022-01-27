@@ -40,3 +40,10 @@ i.fa {
   margin-bottom: 5px;
   font-weight: bold;
 }
+
+@media screen and (max-width:576px) { 
+  .container {
+    max-width: 100%;
+    flex-direction: column;
+  }
+}
