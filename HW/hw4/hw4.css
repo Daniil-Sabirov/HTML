@@ -76,6 +76,12 @@ p {
     .boxes {
         flex-direction: column;
     }
+    .topic_box {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
    .box1, .box2, .box3 {
        max-width: 100%;
        padding-bottom: 50px;
