@@ -1,0 +1,83 @@
+:root {
+    --page1-border-color: red;
+    --page1-bg-color: rgb(255, 134, 134);
+
+    --page2-border-color: green;
+    --page2-bg-color: rgb(100, 255, 100);
+
+    --page3-border-color: blue;
+    --page3-bg-color: rgb(70, 70, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    min-width: 100%;
+}
+
+.container {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: rgb(206, 206, 206);
+    padding: 40px;
+
+}
+
+.container .page {
+    width: 500px;
+    height: 500px;
+    border: 2px solid;
+    position: absolute;
+    top: 40px;
+    z-index: 100;
+}
+
+.container .page .label {
+    position: absolute;
+    top: -30px;
+    border: 2px solid;
+    border-bottom: none;
+    left: -2px;
+    padding: 5px 10px;
+}
+
+.container .page:hover {
+    z-index: 200;
+}
+
+.container .page1 {
+    border-color: var(--page1-border-color);
+    background-color: var(--page1-bg-color);
+}
+.container .page1 .label {
+    border-color: var(--page1-border-color);
+    background-color: var(--page1-bg-color);
+}
+
+.container .page2 {
+    display: block;
+    border-color: var(--page2-border-color);
+    background-color: var(--page2-bg-color);
+}
+.container .page2 .label {
+    border-color: var(--page2-border-color);
+    background-color: var(--page2-bg-color);
+    left: 70px
+}
+
+.container .page3 {
+    display: block;
+    border-color: var(--page3-border-color);
+    background-color: var(--page3-bg-color);
+}
+.container .page3 .label {
+    border-color: var(--page3-border-color);
+    background-color: var(--page3-bg-color);
+    left: 144px
+}
