@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #1c1d1f;
+    width: 100%;
+    display: flex;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+}
+
+.title_box {
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 0 15px 10px;
+}
+
+.line {
+    height: 40px;
+    width: 2px;
+    border: 1px solid gray;
+    align-self: center;
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.name_box {
+    color: white;
+    font-size: 20px;
+    padding-left: 0;
+}
+
+.box1 .fa, .box2 .fa, .box3 .fa {
+    padding: 0 10px 0 0;
+}
+
+.box1, .box2, .box3, .box4 {
+    margin: 15px;
+}
+
+.box1 .fa{
+    color: gray;
+}
+.box1 {
+    color: white;
+}
+
+.box2 .fa{
+    color: purple;
+    border: 2px solid violet;
+    border-radius: 50%;
+    padding: 7px;
+}
+.box2 .text1 {
+    padding-left: 10px
+}
+.box2 {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.box3 .fa{
+    transform: scaleX(-1);
+}
+
+.box3, .box4 {
+    padding: 10px 20px;
+}
+
+.box3 {
+    color: white;
+    border: 1px solid white;
+}
+
+.box4 {
+    color: white;
+    border: 1px solid white;
+}

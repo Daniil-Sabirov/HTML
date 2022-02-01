@@ -32,7 +32,7 @@
 .btn:hover {
     color: orange;
     background-color: white;
-    border-color: orange;
+    border-color: orange; 
 }
 
 .search_window {
@@ -45,4 +45,4 @@
     align-items: center;
     padding-left: 8px;
     margin-left: 30px;
-    
+}
